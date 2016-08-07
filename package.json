@@ -9,5 +9,8 @@
   "license": "Custom",
   "keywords": [
     "jetpack", "cfx", "jpm"
-  ]
+  ],
+  "permissions": {
+    "multiprocess": true
+  }
 }
