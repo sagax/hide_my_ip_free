@@ -1,0 +1,13 @@
+{
+  "title": "Hide My IP",
+  "name": "hidemyip",
+  "version": "1.0.6",
+  "id": "admin@myprivacytools.com",
+  "description": "Hide My IP",
+  "main": "lib/firefox.js",
+  "author": "My Privacy Tools, Inc.",
+  "license": "Custom",
+  "keywords": [
+    "jetpack", "cfx", "jpm"
+  ]
+}
