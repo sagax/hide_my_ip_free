@@ -530,7 +530,6 @@ Main.prototype = {
               bWholeLabelHover ) {
             if (that._tooltipsterObjects)
               that._tooltipsterObjects.hide();
-            //console.log('mousemove:', event.offsetX, marker_width, label_width);
             that._tooltipTimerDelayId = setTimeout(function() {
               $('div#checkbox-prevent-leak').tooltipster('show');
             }, that._tooltip_delay);
