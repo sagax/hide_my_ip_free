@@ -522,7 +522,6 @@ Main.prototype = {
         //[checkbox mousemove]
 
         $('input[type=checkbox][name=preventleak] + label').on('mousemove', function(event) {
-
           if (that._tooltipTimerDelayId) {
             clearTimeout(that._tooltipTimerDelayId);
             that._tooltipTimerDelayId = null;
@@ -530,8 +529,7 @@ Main.prototype = {
 
           if ( event.offsetX > (label_width - marker_width - some_offset ) &&
               event.offsetX < (label_width - some_offset) &&
-              bWholeLabelHover )
-          {
+              bWholeLabelHover ) {
             if (that._tooltipsterObjects)
               that._tooltipsterObjects.hide();
             //console.log('mousemove:', event.offsetX, marker_width, label_width);
