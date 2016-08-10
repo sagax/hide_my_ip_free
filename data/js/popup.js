@@ -666,7 +666,6 @@ Main.prototype = {
               if (!btn_buy.is(":visible"))
                 btn_buy.show();
             }
-            //console.log('parent_more mousemove');
           });
 
         var btn_buy = $('<div>')
