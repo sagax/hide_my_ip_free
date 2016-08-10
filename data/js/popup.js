@@ -519,8 +519,6 @@ Main.prototype = {
         var marker_width = parseInt((window.getComputedStyle(document.querySelector('input[type=checkbox][name=preventleak] + label'), ':after')).width, 10);
         var some_offset = 7;
 
-        //[checkbox mousemove]
-
         $('input[type=checkbox][name=preventleak] + label').on('mousemove', function(event) {
           if (that._tooltipTimerDelayId) {
             clearTimeout(that._tooltipTimerDelayId);
